@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	height: 80px;
+	width: 80px;
+	border: 2px;
+	border-color: black;
+	border-radius: 100%;
+	padding-left: 20px;
+	padding-top: 20px;
+	float: left;
+	
+}
+body{
+	background-image: url('hill.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.search > input{
+	border-radius: 10px;
+	margin-top: 10px;
+	width: 350px;
+	padding: 5px;
+	font-style: italic;
+	border-color: black;
+	background-color: transparent;
+	font-size: 18px;
+	color: black;
+}
+.search{
+	padding-left: 40%;
+	padding-top: 20px;
+	float: center;
+}
+.search button {
+  width: 50px;
+  padding: 5px;
+  background: transparent;
+  color: black;
+  font-size: 17px;
+  border: 1px solid transparent;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+.search button:hover {
+  background: blue;
+}
+h1{
+	float: left;
+	/*padding-left: 20px;*/
+	padding-top: 35px;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 5px;
+}
+.nav  {
+	height: 70px;
+	width: 100%;
+	background-color: black;
+}
+.nav ul{
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	/*text-decoration: none;*/
+}
+.nav ul li{
+	float: left;
+	margin-top: 12px;
+	padding-left: 80px;;
+}
+.nav li a {
+	display: block;
+	font-size: 20px;
+	width: 150px;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	background-color: red;
+}
+.nav ul li ul{
+	background-color: black;
+	display: none;
+	text-align: center;
+	width: 27%;
+}
+.nav ul li ul li{
+	float: none;
+}
+.nav ul  li:hover  ul{
+	display: block;
+}
+#myname{
+	font-size: 40px;
+	letter-spacing: 10px;
+	text-align: center;
+	padding-top: 70px;
+	font-style: bold;
+	word-spacing: 5px;
+	font-family: 'Oswald', sans-serif;
+}
+.remaining{
+	font-size: 20px;
+	text-align: center;
+	float: top;
+	letter-spacing: 5px;
+	word-spacing: 20px;
+	font-style: bold;
+	font-family: 'Anton', sans-serif;
+}
+
+
